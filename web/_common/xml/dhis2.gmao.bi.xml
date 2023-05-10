@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dhis2>
+	<dataset label="GMAO - Infrastructures" type="title" uid="--0--"/>
+	<dataset label="GMAO - Infrastructures - Nombre de structures qui répondent aux normes" type="genericplugin" module="ocdhis2.plugins.GMAOInfrastructureNorms" uid="--0--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="&lt;50% conforme"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="&gt;=50% et &lt;75% conforme"/>
+			<option uid="tlPNWKJ0XWz" value="3" name="&gt;=75% conforme"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-0-1" nolink="1" label="Nombre de structures"/>
+		</dataelements>
+	</dataset>
+	<dataset label="GMAO - Infrastructures - Nombre d'interventions de maintenance préventive" type="genericplugin" module="ocdhis2.plugins.GMAOInfrastructurePreventativeInterventions" uid="--0--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="Réalisées"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="Programmées dans la période"/>
+			<option uid="tlPNWKJ0XWZ" value="3" name="Programmées et expirées"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-0-2" nolink="1" label="Nombre d'interventions"/>
+		</dataelements>
+	</dataset>
+	<dataset label="GMAO - Infrastructures - Nombre d'interventions de maintenance corrective" type="genericplugin" module="ocdhis2.plugins.GMAOInfrastructureCorrectiveInterventions" uid="--0--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="Réalisées"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="Réalisées avec succès"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-0-3" nolink="1" label="Nombre d'interventions"/>
+		</dataelements>
+	</dataset>
+	
+	<dataset label="GMAO - Infrastructures - Constructions et réhabilitations" type="title" uid="--2--"/>
+	<dataset label="GMAO - Infrastructures - Constructions et réhabilitations par type et niveau" type="genericplugin" module="ocdhis2.plugins.GMAOInfrastructureWorks" uid="--2--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="Nouvelles constructions"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="BIF"/>
+			<option uid="tlPNWKJ0XWz" value="3" name="USD"/>
+			<option uid="tlPNWKJ0XWa" value="4" name="EUR"/>
+			<option uid="tlPNWKJ0XWb" value="5" name="Réhabilitations"/>
+			<option uid="tlPNWKJ0XWc" value="6" name="BIF"/>
+			<option uid="tlPNWKJ0XWd" value="7" name="USD"/>
+			<option uid="tlPNWKJ0XWe" value="8" name="EUR"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-2-1" nolink="1" label="Nombre de travaux"/>
+		</dataelements>
+	</dataset>
+
+	<dataset label="GMAO - Equipements" type="title" uid="--1--"/>
+	<dataset label="GMAO - Equipements - Nombre de structures qui répondent aux normes" type="genericplugin" module="ocdhis2.plugins.GMAOEquipmentNorms" uid="--1--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="&lt;50% conforme"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="&gt;=50% et &lt;75% conforme"/>
+			<option uid="tlPNWKJ0XWz" value="3" name="&gt;=75% conforme"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-1-1" nolink="1" label="Nombre de structures"/>
+		</dataelements>
+	</dataset>
+	<dataset label="GMAO - Equipements - Nombre d'interventions de maintenance préventive" type="genericplugin" module="ocdhis2.plugins.GMAOEquipmentPreventativeInterventions" uid="--1--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="Réalisées"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="Programmées dans la période"/>
+			<option uid="tlPNWKJ0XWZ" value="3" name="Programmées et expirées"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-1-2" nolink="1" label="Nombre d'interventions"/>
+		</dataelements>
+	</dataset>
+	<dataset label="GMAO - Equipements - Nombre d'interventions de maintenance corrective" type="genericplugin" module="ocdhis2.plugins.GMAOEquipmentCorrectiveInterventions" uid="--1--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="Réalisées"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="Réalisées avec succès"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-0-3" nolink="1" label="Nombre d'interventions"/>
+		</dataelements>
+	</dataset>
+	
+	<dataset label="GMAO - Equipements - Nouveaux équipements" type="title" uid="--3--"/>
+	<dataset label="GMAO - Equipements - Nouveaux équipements mis en service pendant la période" type="genericplugin" module="ocdhis2.plugins.GMAOEquipmentPurchase" uid="--3--">
+		<attributeOptionCombo type="genericplugin">
+			<option uid="bvYCT9fPMMc" value="cds" name="Centres de santé"/>
+			<option uid="bvYCT9fPMM2" value="hc" name="Hôpitaux communaux"/>
+			<option uid="scMXOQSSdDc" value="hd" name="Hôpitaux de district"/>
+			<option uid="B3mJbSxZ33O" value="h3" name="Hôpitaux niveau 3"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="genericplugin">
+			<option uid="tlPNWKJ0XWx" value="1" name="Nombre d'équipements"/>
+			<option uid="tlPNWKJ0XWy" value="2" name="Valeur en BIF"/>
+			<option uid="tlPNWKJ0XWz" value="3" name="Valeur en USD"/>
+			<option uid="tlPNWKJ0XWa" value="4" name="Valeur en EUR"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement uid="GMAO-2-1" nolink="1" label="Nombre de mises en service"/>
+		</dataelements>
+	</dataset>
+	
+</dhis2>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Windows 64-bit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/star/Windows 64-bit/starjavapos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/star/Windows 64-bit/stario.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/star/Windows 64-bit/xercesimpl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/star/Windows 64-bit/jcl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/star/Windows 64-bit/xml-apis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/star/Windows 64-bit/jpos113-controls.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dhis2>
+	<dataset label="DSNIS-HOP - Fiche 6 - Notification des examens" type="title" uid="n7vMhpxeHOF"/>
+	<dataset label="DSNIS-HOP - Fiche 6 - Notification des examens anormaux (imagerie médicale)" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MIR2" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_MIR2_ABNORMAL" itemValue="medwan.common.true" uid="n7vMhpxeHOF">
+		<attributeOptionCombo type="default">
+			<option uid="GKkUPluq2QJ" name="Imagerie"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="default">
+			<option uid="GKkUPluq2QJ" name="Valeur"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="EC01" value="1" label="EC01 - Echo abdominale" uid="otP7BL2Vy11"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="EC02" value="1" label="EC02 - Echo GO" uid="YqF7FoNNta8"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="EC99" value="1" label="EC99 - Autres examens Echo" uid="riXTgjJbriS"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX01" value="1" label="RX01 - Rx poumons" uid="ywIYNrfXfwg"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX02" value="1" label="RX02 - RX abdomen à blanc" uid="nMzAVh6HsZE"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX03" value="1" label="RX03 - RX osseuse" uid="a1JMt2VXBUT"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX04" value="1" label="RX04 - UIV" uid="r5fENYEvM5h"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX05" value="1" label="RX05 - Salpingo urographie" uid="h0zqRB8RbiX"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX06" value="1" label="RX06 - Lavement baryté" uid="tnYv9u4Zd1d"/>
+			<!-- Nouveau -->
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX07" value="1" label="RX07 - Scanner" uid="i6yp3LCof4M"/>
+			<!-- Fin nouveau -->
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX99" value="1" label="RX99 - Autres examens RX" uid="UDF4e8DLgdv"/>
+		</dataelements>
+	</dataset>
+	<!--  Nouveau -->
+	<dataset label="DSNIS-HOP - Fiche 6 - Notification des examens anormaux goutte épaisse (laboratoire)" type="lab" uid="n7vMhpxeHOF">
+		<attributeOptionCombo type="default">
+			<option uid="GKkUPluq2QJ" name="Labo"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="invalue">
+			<option uid="T5CueXq4qZV" value='Falciparum' name="Falciparum"/>
+			<option uid="kiOczQIam9M" value="Malariae" name="Malariae"/>
+			<option uid="r24OBF6VvPl" value="Ovale" name="Ovale"/>
+			<option uid="azzKNIM5MsT" value="Vivax" name="Vivax"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement code="BP01" label="Plasmodium" uid="afmjqV12QqE"/>
+		</dataelements>
+	</dataset>
+	<!-- Fin nouveau -->
+	<dataset label="DSNIS-HOP - Fiche 6 - Notification des examens anormaux (laboratoire)" type="lab" abnormal="1" uid="n7vMhpxeHOF">
+		<attributeOptionCombo type="default">
+			<option uid="GKkUPluq2QJ" name="Labo"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="default">
+			<option uid="GKkUPluq2QJ" name="Nombre d'examens"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement code="BI01" label="BI01 - Acide urique" uid="TQjQHrTKo1f"/>
+			<dataelement code="BI02" label="BI02 - Bilirubine (conjuguée + totale)" uid="CNmv4bKLjFp"/>
+			<dataelement code="BI03" label="BI03 - C-Protéine-Réactive" uid="zJOF1kwPsqq"/>
+			<dataelement code="BI04" label="BI04 - Gamma GT" uid="gmullrhJyIV"/>
+			<dataelement code="BI05" label="BI05 - Glycémie" uid="qRBSz5mlh7V"/>
+			<dataelement code="BI06" label="BI06 - Hémoglobine glycolisée" uid="FdhadglyhyH"/>
+			<dataelement code="BI07" label="BI07 - Hémoglobine" uid="kPOTOuprKOK"/>
+			<dataelement code="BI08" label="BI08 - Ionogramme" uid="meKgJb05mzA"/>
+			<dataelement code="BI09" label="BI09 - LCR (albumine , glucose)" uid="rroxsiWc5fR"/>
+			<dataelement code="BI10" label="BI10 - Phosphatase alcaline" uid="v6POK7OWGMi"/>
+			<dataelement code="BI11" label="BI11 - Protéines totales" uid="cLvd7vWxRjG"/>
+			<dataelement code="BI12" label="BI12 - Transaminases" uid="DEp9cLROlBm"/>
+			<dataelement code="BI13" label="BI13 - Urée" uid="RMpuuXscWaU"/>
+			<dataelement code="BI14" label="BI14 - Créatinine" uid="Y9lahTzngv1"/>
+			<!-- Nouveau -->
+			<dataelement code="BI15" label="BI15 - Albumine sanguine" uid="YtUXNeW3jLd"/>
+			<dataelement code="BI16" label="BI16 - Albumine serique" uid="sEVzxkoMV10"/>
+			<dataelement code="BI17" label="BI17 - Amylasémie" uid="kmReSJxSXpu"/>
+			<dataelement code="BI18" label="BI18 - Amylasurie" uid="ssYJlsGxK1D"/>
+			<dataelement code="BI19" label="BI19 - Acide lactique" uid="HePg8wHA9hx"/>
+			<dataelement code="BI20" label="BI20 - Albumine glyquée" uid="qpbuagAfU1h"/>
+			<dataelement code="BI21" label="BI21 - Analyse du liquide amniotique" uid="zz59GHBocmU"/>
+			<dataelement code="BI22" label="BI22 - Analyse du liquide peritoneal" uid="eKYTrgF9Yjo"/>
+			<dataelement code="BI23" label="BI23 - HDL" uid="WVG1tgEzjrB"/>
+			<dataelement code="BI24" label="BI24 - LDL" uid="edRf1ig5iFe"/>
+			<dataelement code="BI25" label="BI25 - Cholestérol total" uid="mzi8tHcwbyB"/>
+			<dataelement code="BI26" label="BI26 - Triglycerides" uid="eg6ev3jMCDV"/>
+			<dataelement code="BI27" label="BI27 - Myélogramme" uid="JEAJxMRw1qo"/>
+			<!-- Fin nouveau -->
+			<dataelement code="BI99" label="BI99 - Autres axamens biochimie" uid="QCnMtC5ZUDV"/>
+			<dataelement code="BP01" label="BP01 - Goutte épaisse" uid="yQTFDuHIE56"/>
+			<dataelement code="BP02" label="BP02 - Frottis sanguin" uid="iE9QnQcDGkE"/>
+			<dataelement code="BP03" label="BP03 - Biopsie cutannée filariose" uid="IaFI5ePmE6X"/>
+			<dataelement code="BP04" label="BP04 - BK" uid="s4z67zsPyNn"/>
+			<dataelement code="BP05" label="BP05 - Examen LCR" uid="BD8e3Rbeb5C"/>
+			<dataelement code="BP06" label="BP06 - Examen selles" uid="JlISw9mHNOs"/>
+			<dataelement code="BP07" label="BP07 - Examen urines" uid="X8jCFdZpcxc"/>
+			<dataelement code="BP08" label="BP08 - Examen autres sécrétions" uid="y7zWoRVf1VD"/>
+			<!-- Nouveau -->
+			<dataelement code="BP09" label="BP09 - ECBU" uid="wB4AHnN5y8Z"/>
+			<!-- Fin nouveau -->
+			<dataelement code="BP99" label="BP99 - Autres examens Bactério/parasito" uid="JeeRFwqBVuA"/>
+			<dataelement code="HS01" label="HS01 - NFS" uid="MLexNyBX7xI"/>
+			<dataelement code="HS02" label="HS02 - Test Emmel" uid="GNYQiMyZtD9"/>
+			<dataelement code="HS03" label="HS03 - Test hémostase" uid="zlBWT0hA48a"/>
+			<dataelement code="HS04" label="HS04 - Test rapide malaria" uid="egAiaHW5z3P"/>
+			<dataelement code="HS05" label="HS05 - Test rapide VIH" uid="Y077ZQqedBM"/>
+			<dataelement code="HS06" label="HS06 - Test rapide Hépatites" uid="HoeqOgTDJVt"/>
+			<dataelement code="HS07" label="HS07 - Test de grossesse" uid="cwBSKPfaamc"/>
+			<dataelement code="HS08" label="HS08 - Bilharziose" uid="NLZkmiPMRr1"/>
+			<dataelement code="HS09" label="HS09 - Test Widal" uid="VBqHzyTH0sa"/>
+			<dataelement code="HS10" label="HS10 - VDRL-TPHA" uid="RlwxKXmxujE"/>
+			<dataelement code="HS11" label="HS11 - CD4" uid="UjGfaP78n9K"/>
+			<dataelement code="HS12" label="HS12 - Groupe sanguin" uid="mBytjGr2qJQ"/>
+			<dataelement code="HS13" label="HS13 - Epreuve de compatilité sanguine" uid="mrNBu6BhslN"/>
+			<!-- Nouveau -->
+			<dataelement code="HS14" label="HS14 - Analyse ADN" uid="PPGGRzMwMAk"/>
+			<dataelement code="HS15" label="HS15 - ASLO" uid="JEFo0zcI5y2"/>
+			<dataelement code="HS16" label="HS16 - Sérotoxo" uid="ZBjWdPO0SL0"/>
+			<dataelement code="HS17" label="HS17 - AgHbs" uid="eOSgUYt5965"/>
+			<dataelement code="HS18" label="HS18 - AcHVC" uid="NaIA7U7BAR4"/>
+			<dataelement code="HS19" label="HS19 - IgG" uid="rvedp0uv6cq"/>
+			<dataelement code="HS20" label="HS20 - IgM" uid="bROPpI7y6Ex"/>
+			<dataelement code="HS21" label="HS21 - PSA" uid="DHAzHKXN1DG"/>
+			<dataelement code="HS22" label="HS22 - TP" uid="xrdNzb7QN7T"/>
+			<dataelement code="HS23" label="HS23 - TCK" uid="bMfbhwt6FTz"/>
+			<dataelement code="HS24" label="HS24 - VS" uid="H88JAbzSWfH"/>
+			<dataelement code="HS25" label="HS25 - AgVHA" uid="LBugCwnLoa1"/>
+			<!-- Fin nouveau -->
+			<dataelement code="HS99" label="HS99 - Autres examens hémato/sérologiques" uid="toYVOdtO7b1"/>
+		</dataelements>
+	</dataset>
+	<dataset label="DSNIS-HOP - Fiche 6 - Notification des examens par age (imagerie médicale)" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MIR2" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1" uid="n7vMhpxeHOF">
+		<attributeOptionCombo type="default">
+			<option uid="GKkUPluq2QJ" name="Imagerie"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="SiiQ8FnZ24G" min="0" max="1" gender="m" name="0-11 mois M"/>
+			<option uid="o7tOOvN2Nk0" min="0" max="1" gender="f" name="0-11 mois F"/>
+			<option uid="o19AoBhfCFe" min="1" max="5" gender="m" name="12-59 mois M"/>
+			<option uid="doPjh110E5L" min="1" max="5" gender="f" name="12-59 mois F"/>
+			<option uid="ZnADwj3WJxA" min="5" max="10" gender="m" name="5-9 ans M"/>
+			<option uid="d8byzbZCTQv" min="5" max="10" gender="f" name="5-9 ans F"/>
+			<option uid="WKQUkZScRMI" min="10" max="15" gender="m" name="10-14 ans M"/>
+			<option uid="t3eEbkLledV" min="10" max="15" gender="f" name="10-14 ans F"/>
+			<option uid="oRYY0iFxFAP" min="15" max="20" gender="m" name="15-19 ans M"/>
+			<option uid="QLFbCYqXnp4" min="15" max="20" gender="f" name="15-19 ans F"/>
+			<option uid="vRsGs2BkCuf" min="20" max="25" gender="m" name="20-24 ans M"/>
+			<option uid="qKufGd49w2h" min="20" max="25" gender="f" name="20-24 ans F"/>
+			<option uid="cKvAaPJZlMM" min="25" max="30" gender="m" name="25-29 ans M"/>
+			<option uid="siUD0aUXgBP" min="25" max="30" gender="f" name="25-29 ans F"/>
+			<option uid="oLedXsmvWTe" min="30" max="35" gender="m" name="30-34 ans M"/>
+			<option uid="BWPBFjj3TF7" min="30" max="35" gender="f" name="30-34 ans F"/>
+			<option uid="lWqrmcNE2Hh" min="35" max="40" gender="m" name="35-39 ans M"/>
+			<option uid="KLpoloSLQ21" min="35" max="40" gender="f" name="35-39 ans F"/>
+			<option uid="wG4IdxDO8LJ" min="40" max="45" gender="m" name="40-44 ans M"/>
+			<option uid="eWtXSPbs5gy" min="40" max="45" gender="f" name="40-44 ans F"/>
+			<option uid="Nix0OS52AqJ" min="45" max="50" gender="m" name="45-49 ans M"/>
+			<option uid="aHFM8bFfdLz" min="45" max="50" gender="f" name="45-49 ans F"/>
+			<option uid="n9JJszURcmn" min="50" max="999" gender="m" name="&gt;=50 ans M"/>
+			<option uid="DXR8GpeXGTk" min="50" max="999" gender="f" name="&gt;=50 ans F"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="EC01" value="1" label="EC01 - Echo abdominale" uid="HFW3723Ss36"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="EC02" value="1" label="EC02 - Echo GO" uid="xiRlqprj84V"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="EC99" value="1" label="EC99 - Autres examens Echo" uid="ch2INx3dRod"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX01" value="1" label="RX01 - Rx poumons" uid="EcZcoFG0IK3"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX02" value="1" label="RX02 - RX abdomen à blanc" uid="CmdzDuIGVAz"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX03" value="1" label="RX03 - RX osseuse" uid="CXl4AL10QBJ"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX04" value="1" label="RX04 - UIV" uid="XAPe1k3oLDi"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX05" value="1" label="RX05 - Salpingo urographie" uid="aud6vgc2Gwi"/>
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX06" value="1" label="RX06 - Lavement baryté" uid="Hg3SanO0LL3"/>
+			<!-- Nouveau -->
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX07" value="1" label="RX07 - Scanner" uid="eKwLYTuyvRb"/>
+			<!-- Fin nouveau -->
+			<dataelement unique="transactions" outputtype="transactionItemValue" outputid="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE1;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE2;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE3;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE4;be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_DHIS2CODE5" outputItemValue="RX99" value="1" label="RX99 - Autres examens RX" uid="Uz4xiOPSdX8"/>
+		</dataelements>
+	</dataset>
+	<dataset label="DSNIS-HOP - Fiche 6 - Notification des examens par age (laboratoire)" type="lab" uid="n7vMhpxeHOF">
+		<attributeOptionCombo type="default">
+			<option uid="GKkUPluq2QJ" name="Labo"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="SiiQ8FnZ24G" min="0" max="1" gender="m" name="0-11 mois M"/>
+			<option uid="o7tOOvN2Nk0" min="0" max="1" gender="f" name="0-11 mois F"/>
+			<option uid="o19AoBhfCFe" min="1" max="5" gender="m" name="12-59 mois M"/>
+			<option uid="doPjh110E5L" min="1" max="5" gender="f" name="12-59 mois F"/>
+			<option uid="ZnADwj3WJxA" min="5" max="10" gender="m" name="5-9 ans M"/>
+			<option uid="d8byzbZCTQv" min="5" max="10" gender="f" name="5-9 ans F"/>
+			<option uid="WKQUkZScRMI" min="10" max="15" gender="m" name="10-14 ans M"/>
+			<option uid="t3eEbkLledV" min="10" max="15" gender="f" name="10-14 ans F"/>
+			<option uid="oRYY0iFxFAP" min="15" max="20" gender="m" name="15-19 ans M"/>
+			<option uid="QLFbCYqXnp4" min="15" max="20" gender="f" name="15-19 ans F"/>
+			<option uid="vRsGs2BkCuf" min="20" max="25" gender="m" name="20-24 ans M"/>
+			<option uid="qKufGd49w2h" min="20" max="25" gender="f" name="20-24 ans F"/>
+			<option uid="cKvAaPJZlMM" min="25" max="30" gender="m" name="25-29 ans M"/>
+			<option uid="siUD0aUXgBP" min="25" max="30" gender="f" name="25-29 ans F"/>
+			<option uid="oLedXsmvWTe" min="30" max="35" gender="m" name="30-34 ans M"/>
+			<option uid="BWPBFjj3TF7" min="30" max="35" gender="f" name="30-34 ans F"/>
+			<option uid="lWqrmcNE2Hh" min="35" max="40" gender="m" name="35-39 ans M"/>
+			<option uid="KLpoloSLQ21" min="35" max="40" gender="f" name="35-39 ans F"/>
+			<option uid="wG4IdxDO8LJ" min="40" max="45" gender="m" name="40-44 ans M"/>
+			<option uid="eWtXSPbs5gy" min="40" max="45" gender="f" name="40-44 ans F"/>
+			<option uid="Nix0OS52AqJ" min="45" max="50" gender="m" name="45-49 ans M"/>
+			<option uid="aHFM8bFfdLz" min="45" max="50" gender="f" name="45-49 ans F"/>
+			<option uid="n9JJszURcmn" min="50" max="999" gender="m" name="&gt;=50 ans M"/>
+			<option uid="DXR8GpeXGTk" min="50" max="999" gender="f" name="&gt;=50 ans F"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement code="BI01" label="BI01 - Acide urique" uid="gPtzkjuCS4F"/>
+			<dataelement code="BI02" label="BI02 - Bilirubine (conjuguée + totale)" uid="sZUiu20eK8s"/>
+			<dataelement code="BI03" label="BI03 - C-Protéine-Réactive" uid="Be4FRhDrQ3D"/>
+			<dataelement code="BI04" label="BI04 - Gamma GT" uid="glFMUikTrUx"/>
+			<dataelement code="BI05" label="BI05 - Glycémie" uid="LuRkzTUrJ4w"/>
+			<dataelement code="BI06" label="BI06 - Hémoglobine glycolisée" uid="jRaiVYhGljy"/>
+			<dataelement code="BI07" label="BI07 - Hémoglobine" uid="chnuUbsmNen"/>
+			<dataelement code="BI08" label="BI08 - Ionogramme" uid="M9tTFNK4Sk7"/>
+			<dataelement code="BI09" label="BI09 - LCR (albumine , glucose)" uid="abbY0h2YRgc"/>
+			<dataelement code="BI10" label="BI10 - Phosphatase alcaline" uid="U4UC4YCpNMZ"/>
+			<dataelement code="BI11" label="BI11 - Protéines totales" uid="EjBZD7i44TM"/>
+			<dataelement code="BI12" label="BI12 - Transaminases" uid="M7EgSl6zLs2"/>
+			<dataelement code="BI13" label="BI13 - Urée" uid="xcEShRKw1rn"/>
+			<dataelement code="BI14" label="BI14 - Créatinine" uid="k4qKcbIv2xV"/>
+			<!-- Nouveau -->
+			<dataelement code="BI15" label="BI15 - Albumine sanguine" uid="HWgauGKTQiT"/>
+			<dataelement code="BI16" label="BI16 - Albumine serique" uid="nVUiWbwBpQ3"/>
+			<dataelement code="BI17" label="BI17 - Amylasémie" uid="MU53zTIk5Zx"/>
+			<dataelement code="BI18" label="BI18 - Amylasurie" uid="kCUIbgvLdfl"/>
+			<dataelement code="BI19" label="BI19 - Acide lactique" uid="vu55EKikH1F"/>
+			<dataelement code="BI20" label="BI20 - Albumine glyquée" uid="gYPeO8VSdSu"/>
+			<dataelement code="BI21" label="BI21 - Analyse du liquide amniotique" uid="SqOK66GNQQe"/>
+			<dataelement code="BI22" label="BI22 - Analyse du liquide peritoneal" uid="PNDO2HytHmT"/>
+			<dataelement code="BI23" label="BI23 - HDL" uid="w116q3dABM2"/>
+			<dataelement code="BI24" label="BI24 - LDL" uid="R8WTjeGppDM"/>
+			<dataelement code="BI25" label="BI25 - Cholestérol total" uid="AEIQjCvEdhn"/>
+			<dataelement code="BI26" label="BI26 - Triglycerides" uid="musPcRktuyo"/>
+			<dataelement code="BI27" label="BI27 - Myélogramme" uid="RLEo6jDLm8y"/>
+			<!-- Fin nouveau -->
+			<dataelement code="BI99" label="BI99 - Autres axamens biochimie" uid="x9C6HDN4mVF"/>
+			<dataelement code="BP01" label="BP01 - Goutte épaisse" uid="Uvj83ApugPn"/>
+			<dataelement code="BP02" label="BP02 - Frottis sanguin" uid="UWFeBQgOPIV"/>
+			<dataelement code="BP03" label="BP03 - Biopsie cutannée filariose" uid="gxB8QfWuJ0J"/>
+			<dataelement code="BP04" label="BP04 - BK" uid="J53itG38Gi6"/>
+			<dataelement code="BP05" label="BP05 - Examen LCR" uid="k2d61ehQcs4"/>
+			<dataelement code="BP06" label="BP06 - Examen selles" uid="fwbgr8O84RZ"/>
+			<dataelement code="BP07" label="BP07 - Examen urines" uid="rCRyeskGoEb"/>
+			<dataelement code="BP08" label="BP08 - Examen autres sécrétions" uid="uKFZxje04ud"/>
+			<!-- Nouveau -->
+			<dataelement code="BP09" label="BP09 - ECBU" uid="tAUp2lMDktT"/>
+			<!-- Fin nouveau -->
+			<dataelement code="BP99" label="BP99 - Autres examens Bactério/parasito" uid="X1cKMGN55te"/>
+			<dataelement code="HS01" label="HS01 - NFS" uid="AmZBtNXQfh6"/>
+			<dataelement code="HS02" label="HS02 - Test Emmel" uid="ukycFKo5Edn"/>
+			<dataelement code="HS03" label="HS03 - Test hémostase" uid="Qw0DJ70jPDW"/>
+			<dataelement code="HS04" label="HS04 - Test rapide malaria" uid="aPWjRzJIRjW"/>
+			<dataelement code="HS05" label="HS05 - Test rapide VIH" uid="gWaOnDuT4fO"/>
+			<dataelement code="HS06" label="HS06 - Test rapide Hépatites" uid="bma3T4NQaAx"/>
+			<dataelement code="HS07" label="HS07 - Test de grossesse" uid="ZCq2Up60wSf"/>
+			<dataelement code="HS08" label="HS08 - Bilharziose" uid="wJUpTo4Q9Gt"/>
+			<dataelement code="HS09" label="HS09 - Test Widal" uid="Kpi3R8mNxt9"/>
+			<dataelement code="HS10" label="HS10 - VDRL-TPHA" uid="W6QZ5NXAo6r"/>
+			<dataelement code="HS11" label="HS11 - CD4" uid="aVqfXt4mdk8"/>
+			<dataelement code="HS12" label="HS12 - Groupe sanguin" uid="IgMdp1ds8C3"/>
+			<dataelement code="HS13" label="HS13 - Epreuve de compatilité sanguine" uid="a05iExr1YQF"/>
+			<!-- Nouveau -->
+			<dataelement code="HS14" label="HS14 - Analyse ADN" uid="EPyZXgl7uR4"/>
+			<dataelement code="HS15" label="HS15 - ASLO" uid="yscp3uZGGFL"/>
+			<dataelement code="HS16" label="HS16 - Sérotoxo" uid="nLTJh8At7Sx"/>
+			<dataelement code="HS17" label="HS17 - AgHbs" uid="j3LIy2PhlKh"/>
+			<dataelement code="HS18" label="HS18 - AcHVC" uid="ySYufTj4dAw"/>
+			<dataelement code="HS19" label="HS19 - IgG" uid="CSgnwo1qb7y"/>
+			<dataelement code="HS20" label="HS20 - IgM" uid="InCY2kjBAJD"/>
+			<dataelement code="HS21" label="HS21 - PSA" uid="EhziZ2azM0y"/>
+			<dataelement code="HS22" label="HS22 - TP" uid="MzHj1Og6pgA"/>
+			<dataelement code="HS23" label="HS23 - TCK" uid="fkEHkDcIT6y"/>
+			<dataelement code="HS24" label="HS24 - VS" uid="FbRdF720D9y"/>
+			<dataelement code="HS25" label="HS25 - AgVHA" uid="RqZGbh0utk9"/>
+			<!-- Fin nouveau -->
+			<dataelement code="HS99" label="HS99 - Autres examens hémato/sérologiques" uid="c0L2ggGJyVw"/>
+		</dataelements>
+	</dataset>
+</dhis2>

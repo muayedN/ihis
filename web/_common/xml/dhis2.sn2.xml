@@ -1,0 +1,448 @@
+<dhis2>
+	<!-- *************************************************************************************** -->
+	<!-- Planning familial											     -->
+	<!-- *************************************************************************************** -->
+	<dataset label="Rapport mensuel de planning familial" type="title" uid="nRwgOybg4EA"/>
+	<dataset label="Rapport mensuel de planning familial - Nouvelles dans le programme selon méthode" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="CWaISx438Jq" min="10" max="15" gender="f" name="10-14 ans"/>
+			<option uid="MDcoi7tCcPU" min="15" max="20" gender="f" name="15-19 ans"/>
+			<option uid="F4D5x6nXi5q" min="20" max="25" gender="f" name="20-24 ans"/>
+			<option uid="kH4md2FfeBF" min="25" max="50" gender="f" name="25-50 ans"/>
+			<option uid="g38WSZ2LQ9G" min="50" max="999" gender="f" name="50 ans et +"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Pilules - PP" uid="uPgWbUgmONc">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Pilules - POP" uid="p8Wup8tsjgg">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - IM" uid="hKCPkoul3xS">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - SC prestataire" uid="DSXkR2hVFJC">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - SC autoinjection" uid="iog4lGREo6b">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="DIU" uid="ztTQmFNvNR3">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="2{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="3{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Implants - 1 capsule" uid="Faa0nbR5e02">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Implants - 2 capsules" uid="hqpERvGUwIR">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Préservatifs - masculin" uid="jUyOtzBZEFD">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Préservatifs - féminin" uid="PkLfsY0YMhV">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - MAMA" uid="SWMj8GmyA2l">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - jour fixe/collier" uid="vYlLp0tUAxF">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - MAO" uid="bfb1EdkN7qJ">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - autres" uid="IR4Dyny00Xt">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Anneau vaginal" uid="IR4Dyny00Xt">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NEWINPROGRAM" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}1{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>	
+	<dataset label="Rapport mensuel de planning familial - Actives dans le programme selon méthode" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="CWaISx438Jq" min="10" max="15" gender="f" name="10-14 ans"/>
+			<option uid="MDcoi7tCcPU" min="15" max="20" gender="f" name="15-19 ans"/>
+			<option uid="F4D5x6nXi5q" min="20" max="25" gender="f" name="20-24 ans"/>
+			<option uid="kH4md2FfeBF" min="25" max="50" gender="f" name="25-50 ans"/>
+			<option uid="g38WSZ2LQ9G" min="50" max="999" gender="f" name="50 ans et +"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Pilules - PP" uid="EMtiG9yXayw">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Pilules - POP" uid="ZCH2rMeQGiS">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - IM" uid="QGlV4gJ6F9R">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - SC prestataire" uid="KxjfMZKv3la">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - SC autoinjection" uid="ydLOreoT5fO">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="DIU" uid="FuIyHTBFhwA">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="2{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="3{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Implants - 1 capsule" uid="YEZDrqhnadI">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Implants - 2 capsules" uid="CR7VcPYZX72">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Préservatifs - masculin" uid="nahQyQ4n9yj">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Préservatifs - féminin" uid="Q7P1Icr8Td4">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - MAMA" uid="JHLAIxa9xq9">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - jour fixe/collier" uid="PN0pTtGya0g">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - MAO" uid="WBrQ9VL7WmY">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - autres" uid="FviKyZ9bZlV">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Anneau vaginal" uid="ZVFGS0KYyW8">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}1{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>
+	<dataset label="Rapport mensuel de planning familial - Actives chez les femmes PVVIH (PTME)" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="CWaISx438Jq" min="10" max="15" gender="f" name="10-14 ans"/>
+			<option uid="MDcoi7tCcPU" min="15" max="20" gender="f" name="15-19 ans"/>
+			<option uid="F4D5x6nXi5q" min="20" max="25" gender="f" name="20-24 ans"/>
+			<option uid="kH4md2FfeBF" min="25" max="50" gender="f" name="25-50 ans"/>
+			<option uid="g38WSZ2LQ9G" min="50" max="999" gender="f" name="50 ans et +"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Nombre de femmes actives séropositives" uid="pPFCwZxVsU2">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="1{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_HIVPOS" itemvalue="1{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>
+	<dataset label="Rapport mensuel de planning familial - Inactives dans le programme selon méthode" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="CWaISx438Jq" min="10" max="15" gender="f" name="10-14 ans"/>
+			<option uid="MDcoi7tCcPU" min="15" max="20" gender="f" name="15-19 ans"/>
+			<option uid="F4D5x6nXi5q" min="20" max="25" gender="f" name="20-24 ans"/>
+			<option uid="kH4md2FfeBF" min="25" max="50" gender="f" name="25-50 ans"/>
+			<option uid="g38WSZ2LQ9G" min="50" max="999" gender="f" name="50 ans et +"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Pilules - PP" u="x9Qy3r4aY6y">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Pilules - POP" uid="awVONCwklmd">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - IM" uid="tZk1BPTkeTa">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - SC prestataire" uid="kV2yWSkVyqT">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Injection - SC autoinjection" uid="U4CW8UITPcq">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="DIU" uid="GLLquvrO8Z5">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="2{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="3{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Implants - 1 capsule" uid="x01Zti2MdM6">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Implants - 2 capsules" uid="yHosVAG5FtN">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Préservatifs - masculin" uid="ZFhpBDKIv7M">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Préservatifs - féminin" uid="RGKMtclEqbl">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - MAMA" uid="p7VJiuDoJNC">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - jour fixe/collier" uid="cXsSMe7fBS4">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - MAO" uid="XVvDG3sdlDv">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Méthodes naturelles - autres" uid="PG2mO6U9KH6">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Anneau vaginal" uid="Ug9KRYhIf6z">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ACTIVE" itemvalue="0{sem}"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}1{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>
+	<dataset label="Rapport mensuel de planning familial - Abandons selon méthode" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="CWaISx438Jq" min="10" max="15" gender="f" name="10-14 ans"/>
+			<option uid="MDcoi7tCcPU" min="15" max="20" gender="f" name="15-19 ans"/>
+			<option uid="F4D5x6nXi5q" min="20" max="25" gender="f" name="20-24 ans"/>
+			<option uid="kH4md2FfeBF" min="25" max="50" gender="f" name="25-50 ans"/>
+			<option uid="g38WSZ2LQ9G" min="50" max="999" gender="f" name="50 ans et +"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Pilules - PP" uid="x9Qy3r4aY6y">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_CONTRACEPTICEPILL" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Pilules - POP" uid="awVONCwklmd">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_CONTRACEPTICEPILL" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Injection - IM" uid="tZk1BPTkeTa">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_INJECTION" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Injection - SC prestataire" uid="kV2yWSkVyqT">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_INJECTION" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Injection - SC autoinjection" uid="U4CW8UITPcq">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_INJECTION" itemvalue="3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="DIU" uid="GLLquvrO8Z5">
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_DIU" itemvalue="2{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_DIU" itemvalue="3{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_DIU" itemvalue="4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Implants - 1 capsule" uid="x01Zti2MdM6">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_IMPLANT" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Implants - 2 capsules" uid="yHosVAG5FtN">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_IMPLANT" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Préservatifs - masculin" uid="ZFhpBDKIv7M">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_OTHERMETHODS" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Préservatifs - féminin" uid="RGKMtclEqbl">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_OTHERMETHODS" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Méthodes naturelles - MAMA" uid="p7VJiuDoJNC">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" itemvalue="{like}1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Méthodes naturelles - jour fixe/collier" uid="cXsSMe7fBS4">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Méthodes naturelles - MAO" uid="XVvDG3sdlDv">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Méthodes naturelles - autres" uid="PG2mO6U9KH6">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" itemvalue="{like}4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Anneau vaginal" uid="Ug9KRYhIf6z">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_OTHERMETHODS" itemvalue="{like}1{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>
+	<dataset label="Rapport mensuel de planning familial - Contraception d'urgence" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="CWaISx438Jq" min="10" max="15" gender="f" name="10-14 ans"/>
+			<option uid="MDcoi7tCcPU" min="15" max="20" gender="f" name="15-19 ans"/>
+			<option uid="F4D5x6nXi5q" min="20" max="25" gender="f" name="20-24 ans"/>
+			<option uid="kH4md2FfeBF" min="25" max="50" gender="f" name="25-50 ans"/>
+			<option uid="g38WSZ2LQ9G" min="50" max="999" gender="f" name="50 ans et +"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="patients" calculate="itemCount" itemsneeded="1" label="Nombre de femmes" uid="JhWELLk6IHw">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}5{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>	
+	<dataset label="Rapport mensuel de planning familial - Incidents" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Nombre"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Rejets d'implants" uid="WiE73YFNZbA">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INCIDENTS" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="Perforations utérines après DIU" uid="rzwoAqfiMcM">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INCIDENTS" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="DIU expulsé" uid="QXLWLEDrHrl">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INCIDENTS" itemvalue="3{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>	
+	<dataset label="Rapport mensuel de planning familial - Utilisation après accouchement" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="agegender">
+			<option uid="CWaISx438Jq" min="10" max="15" gender="f" name="10-14 ans"/>
+			<option uid="MDcoi7tCcPU" min="15" max="20" gender="f" name="15-19 ans"/>
+			<option uid="F4D5x6nXi5q" min="20" max="25" gender="f" name="20-24 ans"/>
+			<option uid="kH4md2FfeBF" min="25" max="50" gender="f" name="25-50 ans"/>
+			<option uid="g38WSZ2LQ9G" min="50" max="999" gender="f" name="50 ans et +"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="DIU post partum" uid="EuKa8zjBxdi">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_POSTPARTUM"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="2{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="3{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Implant post partum" uid="HxRhPOyVqEV">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_POSTPARTUM"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="2" label="Anneau vaginal post partum" uid="XYY0zGrLhpZ">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_POSTPARTUM"/>
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_OTHERMETHODS" itemvalue="{like}1{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>	
+	<dataset label="Rapport mensuel de planning familial - Changement de méthodes" type="item" transactiontype="be.mxs.common.model.vo.healthrecord.IConstants.TRANSACTION_TYPE_MSAS_REGISTRY_FAMILYPLANNING" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_CONTEXT_ENCOUNTERUID" uid="nRwgOybg4EA">
+		<attributeOptionCombo type="default">
+			<option uid="HoIsxzhEmia" name="Default"/>
+		</attributeOptionCombo>
+		<categoryOptionCombo type="transactionitemvalue">
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_CONTRACEPTICEPILL" outputItemValueIn="1{semicolon}" uid="eD3sLSiiQ61" name="De pilules - PP"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_CONTRACEPTICEPILL" outputItemValueIn="2{semicolon}" uid="XD3ocNEBqpj" name="De pilules - POP"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_INJECTION" outputItemValueIn="1{semicolon}" uid="ZQdyvwIiVuy" name="De injection - IM"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_INJECTION" outputItemValueIn="2{semicolon}" uid="qQKKhOe55xF" name="De injection - SC prestataire"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_INJECTION" outputItemValueIn="3{semicolon}" uid="yjsc0VlSV2M" name="De injection - SC autoinjection"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_DIU" outputItemValueIn="2{semicolon}|3{semicolon}|4{semicolon}" uid="NDS0sbkhPjh" name="De DIU"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_IMPLANT" outputItemValueIn="1{semicolon}" uid="p2oUWaIkSuJ" name="De implants - 1 capsule"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_IMPLANT" outputItemValueIn="2{semicolon}" uid="KjmIZGu0qkh" name="De implants - 2 capsules"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_OTHERMETHODS" outputItemValueIn="{like}1{semicolon}" uid="fZvEIHTckou" name="De préservatifs - masculin"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_OTHERMETHODS" outputItemValueIn="{like}2{semicolon}" uid="QP5wZJaYkAl" name="De préservatifs - féminin"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" outputItemValueIn="{like}1{semicolon}" uid="upln35ZonQL" name="De méthodes naturelles - MAMA"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" outputItemValueIn="{like}2{semicolon}" uid="mm5IZS8O1PD" name="De méthodes naturelles - jour fixe/collier"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" outputItemValueIn="{like}3{semicolon}" uid="OiacpDe6RNw" name="De méthodes naturelles - MAO"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_NATURALMETHOD" outputItemValueIn="{like}4{semicolon}" uid="tj3Op1v8DWm" name="De méthodes naturelles - autres"/>
+			<option itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_ABANDONED_OTHERMETHODS" outputItemValueIn="{like}1{semicolon}" uid="dpD8E6wqEeo" name="De anneau vaginal"/>
+		</categoryOptionCombo>
+		<dataelements>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A pilules - PP" uid="NDy0AwDf4LQ">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A pilules - POP" uid="nYl3tPjFXll">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_CONTRACEPTICEPILL" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A injection - IM" uid="rV0qb0rFKY6">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A injection - SC prestataire" uid="btZYlFJxD4M">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A injection - SC autoinjection" uid="cXovTa2dpGc">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_INJECTION" itemvalue="3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A DIU" uid="EZ8o8NMDCQz">
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="2{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="3{sem}"/>
+				<item sametransaction="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_DIU" itemvalue="4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A implants - 1 capsule" uid="SknEtuPaVIx">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A implants - 2 capsules" uid="flLo1dmZAEw">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_IMPLANT" itemvalue="2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A préservatifs - masculin" uid="FMJIu4MuICA">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A préservatifs - féminin" uid="wBv0XouRhOe">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A méthodes naturelles - MAMA" uid="aYD9BoespOF">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}1{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A méthodes naturelles - jour fixe/collier" uid="ZBs6fOKp8TA">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}2{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A méthodes naturelles - MAO" uid="AyKqwGxE2Ja">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}3{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A méthodes naturelles - autres" uid="vW9g6136p4M">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_NATURALMETHOD" itemvalue="{like}4{sem}"/>
+			</dataelement>
+			<dataelement unique="encounters" calculate="itemCount" itemsneeded="1" label="A anneau vaginal" uid="EZ4viBnXNiZ">
+				<item sametransaction="1" mandatory="1" itemtype="be.mxs.common.model.vo.healthrecord.IConstants.ITEM_TYPE_FP_OTHERMETHODS" itemvalue="{like}1{sem}"/>
+			</dataelement>
+		</dataelements>
+	</dataset>
+</dhis2>
