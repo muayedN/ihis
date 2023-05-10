@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="dom4j-full">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/oldlib/dom4j-full.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
