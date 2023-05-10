@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="mstile-150x150">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/web/mstile-150x150.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
